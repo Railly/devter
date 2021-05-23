@@ -11,7 +11,6 @@ export default function Home () {
 
   useEffect(() => {
     onAuthStateChanged(setUser)
-    console.log('helloo')
   }, [])
 
   const handleClick = () => {
