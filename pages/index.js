@@ -16,6 +16,7 @@ export default function Home () {
 
   useEffect(() => {
     onAuthStateChanged(setUser)
+    console.log('hello aliases')
   }, [])
 
   const handleClick = () => {
